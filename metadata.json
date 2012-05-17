@@ -1,0 +1,10 @@
+{
+    "shell-version": ["3.2","3.4.1"],
+    "uuid": "layout-swicher-seach-ru-en@slonstudio.org",
+    "name": "Layout swicher seach ru-en",
+    "description": "Automatically changes the keyboard layout in search, if you forget",
+    "url": "http://slonstudio.org",
+    "original-authors": [ "crantisz@gmail.com" ]
+}
+
+
