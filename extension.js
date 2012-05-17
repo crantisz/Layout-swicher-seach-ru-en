@@ -266,6 +266,10 @@ function enable() {
 }
 
 function disable(){
-    Main.overview.removeSearchProvider(spruen)
-    Main.overview.removeSearchProvider(spenru)
+    i=0;
+    while(i<searchProviders.length){
+        if (searchProviders[i].addon=='ruenswich'){
+            Main.overview.removeSearchProvider(searchProviders[i])
+        }else i++;
+    }
 }
